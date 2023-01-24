@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+*, * > *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body,p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.free-btn {
+    outline: none;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+
+}
+
+.get-started-btn {
+    background-color: hsl(322, 100%, 66%);
+    padding: .6rem 1.4rem;
+    border-radius: 25px;
+    color: white;
+    font-size: smaller;
+    outline: none;
+    border: none;
+}
+
+.subscribe-btn{
+    background-color: hsl(322, 100%, 66%);
+    padding: .6rem 1.4rem;
+    border-radius: 4px;
+    color: white;
+    font-size: smaller;
+    outline: none;
+    border: none;
+}
+
+input[type = email]{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media(min-width: 768px){
+    .wid{
+        width: 75% !important;
+    }
+}
